@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nn-zero-to-hero"
+version = "0.1.0"
+description = ""
+authors = ["Evan Savage <savage.evan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nn_zero_to_hero"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
